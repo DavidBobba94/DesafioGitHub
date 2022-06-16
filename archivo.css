@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{ 
+    background-color: #3289a8;
+
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: #D8EBF7;
+    padding-top: 15px;
+}
+
+.navegador ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;   
+    list-style: none;
+    text-decoration: none;
+}
+
+ ul li{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;  
+    text-decoration: none; 
+
+}
+
+
+.enlaces{
+    text-decoration: none;
+}
+
+
+/*INDEX*/ 
+
+.gridcontainer{
+    display: grid;
+    grid-template-areas: "imagen1 imagen2 imagen3"
+    "videoyoutube videoyoutube imagen4";
+    
+}
+
+.gridcontainer div{
+    padding: 10px;    
+}
+
+.imagen1{
+    grid-area:  imagen1;
+}
+
+.imagen2{
+    grid-area: imagen2;    
+}
+
+.imagen3{
+    grid-area: imagen3;
+}
+
+.imagen4{
+    grid-area: imagen4;
+}
+.videoyoutube{
+    grid-area: videoyoutube;  
+    
+}
+
+.imagenesindex{
+    width: 100%;
+    height: 100%;
+}
+
+.videoyoutube iframe{
+    width: 100%;    
+}
+
+.elclub{
+    display: grid;
+    grid-template-areas: "primeraimagen primerareseña"
+    "segundaimagen segundareseña"
+    "terceraimagen tercerareseña"
+    "cuartaimagen cuartareseña"
+    "quintaimagen quintareseña"
+    "sextaimagen sextareseña";
+    padding-left: 10px;
+    padding-top: 10px;    
+}
+
+.primeraimagen{
+    grid-area: primeraimagen;
+    padding-right: 10px;
+}
+
+.primerareseña{
+    grid-area: primerareseña;
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+.segundaimagen{
+    grid-area: segundaimagen;
+    padding-right: 10px;
+    padding-top: 20px;    
+}
+
+.segundareseña{
+    grid-area: segundareseña;
+    padding-left: 10px;
+   padding-top: 20px;
+}
+
+.terceraimagen{
+    grid-area: terceraimagen;
+    padding-right: 10px;
+    padding-top: 20px; 
+    
+}
+
+.tercerareseña{
+    grid-area: tercerareseña;
+    padding-left: 10px;
+    padding-top: 200px;
+    align-items: center;
+}
+
+.cuartaimagen{
+    grid-area: cuartaimagen;
+    padding-right: 10px;
+    padding-top: 20px; 
+    
+}
+
+.cuartareseña{
+    grid-area: cuartareseña;
+    padding-left: 10px;
+    padding-top: 200px;
+    align-items: center;
+}
+
+.quintaimagen{
+    grid-area: quintaimagen;
+    padding-right: 10px;
+    padding-top: 20px;
+    
+}
+
+.quintareseña{
+    grid-area: quintareseña;
+    padding-left: 10px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.sextaimagen{
+    grid-area: sextaimagen;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.sextareseña{
+    grid-area: sextareseña;
+    padding-left: 10px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.imageneselclub{
+    width: 100%;
+    height: 100%;
+}
+    
+.texto{
+    font: small-caps 100%/200% serif;
+    color: whitesmoke;
+    line-height: 200%;
+    font-style: oblique;
+    text-align: center;
+}
+
+.plantilla{
+    display: grid;
+    grid-template-areas: "arqueros arqueros"
+    "defensores defensores"
+    "mediocampistas mediocampistas"
+    "delanteros delanteros";
+    justify-content: center;
+    background-color: white;
+}
+
+.arqueros{
+    grid-area: arqueros;
+}
+
+.defensores{
+    grid-area: defensores;
+}
+
+.mediocampistas{
+    grid-area: mediocampistas;
+}
+
+.delanteros {
+    grid-area: delanteros;
+}
+
+.bodyplantilla{
+    background-color: white;
+}
+
+.tituloplantilla{
+    color: #3289a8;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.asociate{
+    display: grid;
+    grid-template-areas: "imagensocio1 reseñasocio"
+    "imagensocio2 reseñasocio";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.imagensocio1{
+    grid-area: imagensocio1;
+    width: 100%;
+    height: 100%;
+}
+
+.reseñasocio{
+    grid-area: reseñasocio;
+    padding-top: 150px;
+    font: small-caps 100%/200% serif;
+    color: whitesmoke;
+    line-height: 200%;
+    font-style: oblique;
+    text-align: center;
+}
+
+
+.imagensocio1 img{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.paginacontacto{
+    background-color: white;
+}
+
+.titulocontacto{
+    color: #3289a8;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.imagencontacto{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .gridcontainer{
+        display: flex;
+        flex-direction: column;      
+    }
+
+    .elclub{
+        display: flex;
+        flex-direction: column;
+    }
+    .plantilla{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .encabezado{
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+}
+    
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    .gridcontainer{
+        display: flex;
+        flex-direction: column;      
+    }
+    .elclub{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plantilla{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .encabezado{
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .gridcontainer{
+        display: flex;
+        flex-direction: column;      
+    }
+    .elclub{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .plantilla{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .encabezado{
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+}
