@@ -39,6 +39,11 @@ body{
 
 }
 
+li a:hover{
+    background-color: blue;
+    color: white;
+    animation-duration: 2s;
+}
 
 .enlaces{
     text-decoration: none;
